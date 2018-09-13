@@ -1,0 +1,473 @@
+2018-09-11 11:12:48.184 INFO  (main) [   ] o.e.j.u.log Logging initialized @327ms
+2018-09-11 11:12:48.368 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2018-09-11 11:12:48.384 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/contexts/] at interval 0
+2018-09-11 11:12:48.692 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-09-11 11:12:48.703 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp/,STARTING}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-09-11 11:12:48.715 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1465085305@57536d79
+2018-09-11 11:12:48.735 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 11:12:48.735 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 11:12:48.736 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr'
+2018-09-11 11:12:48.736 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 11:12:48.737 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 11:12:48.744 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/solr.xml
+2018-09-11 11:12:48.820 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 11:12:48.854 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1658926803
+2018-09-11 11:12:48.854 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr]
+2018-09-11 11:12:48.855 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/lib to classpath: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/lib
+2018-09-11 11:12:48.867 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-09-11 11:12:49.262 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-09-11 11:12:49.266 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-09-11 11:12:49.267 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-09-11 11:12:49.270 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-09-11 11:12:49.270 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-09-11 11:12:49.318 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 11:12:49.322 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=news_lookup, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2018-09-11 11:12:49.323 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core news_lookup in /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup
+2018-09-11 11:12:49.330 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2018-09-11 11:12:49.337 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server
+2018-09-11 11:12:49.337 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup'
+2018-09-11 11:12:49.337 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-09-11 11:12:49.338 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 11:12:49.338 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 11:12:49.355 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp/,AVAILABLE}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp}
+2018-09-11 11:12:49.387 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7a8c8dcf{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-09-11 11:12:49.387 INFO  (main) [   ] o.e.j.s.Server Started @1532ms
+2018-09-11 11:12:49.394 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2018-09-11 11:12:49.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-09-11 11:12:49.448 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.0.0
+2018-09-11 11:12:49.576 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2018-09-11 11:12:49.621 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [news_lookup] Schema name=example
+2018-09-11 11:12:49.926 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: heading
+2018-09-11 11:12:50.024 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-11 11:12:50.034 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-11 11:12:50.043 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup'
+2018-09-11 11:12:50.043 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'news_lookup' using configuration from instancedir /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup
+2018-09-11 11:12:50.072 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-09-11 11:12:50.083 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [[news_lookup] ] Opening new SolrCore at [/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup], dataDir=[/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/]
+2018-09-11 11:12:50.085 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-09-11 11:12:50.090 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2018-09-11 11:12:50.153 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data
+2018-09-11 11:12:50.153 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore New index directory detected: old=null new=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index/
+2018-09-11 11:12:50.154 WARN  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Solr index directory '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index' doesn't exist. Creating new index...
+2018-09-11 11:12:50.163 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index
+2018-09-11 11:12:50.217 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2018-09-11 11:12:50.217 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2018-09-11 11:12:50.219 INFO  (OldIndexDirectoryCleanupThreadForCore-news_lookup) [   x:news_lookup] o.a.s.c.SolrCore Looking for old index directories to cleanup for core news_lookup in /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/
+2018-09-11 11:12:50.296 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-09-11 11:12:50.320 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 11:12:50.323 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 11:12:50.324 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 11:12:50.325 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 11:12:50.381 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-09-11 11:12:50.381 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-09-11 11:12:50.382 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-09-11 11:12:50.383 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/sql,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2018-09-11 11:12:50.383 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-09-11 11:12:50.392 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-11 11:12:50.392 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-11 11:12:50.410 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-11 11:12:50.410 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-11 11:12:50.419 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2018-09-11 11:12:50.419 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2018-09-11 11:12:50.431 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.s.SolrIndexSearcher Opening [Searcher@4bb75070[news_lookup] main]
+2018-09-11 11:12:50.439 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 11:12:50.439 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf}
+2018-09-11 11:12:50.452 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 11:12:50.454 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 11:12:50.454 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2018-09-11 11:12:50.454 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-09-11 11:12:50.464 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-11 11:12:50.476 INFO  (searcherExecutor-7-thread-1-processing-x:news_lookup) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Registered new searcher Searcher@4bb75070[news_lookup] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-11 11:12:50.477 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-09-11 11:12:50.480 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-09-11 11:12:50.480 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2018-09-11 11:12:50.487 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.u.UpdateLog Took 8.0ms to seed version buckets with highest version 1611309162359160832
+2018-09-11 11:12:50.488 INFO  (coreLoadExecutor-6-thread-1) [   x:news_lookup] o.a.s.c.CoreContainer registering core: news_lookup
+2018-09-11 11:12:56.397 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385093480448)]} 0 70
+2018-09-11 11:12:56.420 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385166880768)]} 0 2
+2018-09-11 11:12:56.426 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385173172224)]} 0 2
+2018-09-11 11:12:56.433 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385180512256)]} 0 1
+2018-09-11 11:12:56.437 INFO  (qtp1791930789-19) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385185755136)]} 0 1
+2018-09-11 11:12:56.442 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385190998016)]} 0 1
+2018-09-11 11:12:56.446 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385195192320)]} 0 1
+2018-09-11 11:12:56.453 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385202532352)]} 0 1
+2018-09-11 11:12:56.458 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385207775232)]} 0 1
+2018-09-11 11:12:56.463 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385213018112)]} 0 1
+2018-09-11 11:12:56.468 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385217212416)]} 0 1
+2018-09-11 11:12:56.473 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385223503872)]} 0 1
+2018-09-11 11:12:56.477 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385227698176)]} 0 1
+2018-09-11 11:12:56.487 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385238183936)]} 0 1
+2018-09-11 11:12:56.494 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385244475392)]} 0 1
+2018-09-11 11:12:56.499 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385250766848)]} 0 2
+2018-09-11 11:12:56.504 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385254961152)]} 0 1
+2018-09-11 11:12:56.509 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385261252608)]} 0 1
+2018-09-11 11:12:56.516 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385269641216)]} 0 1
+2018-09-11 11:12:56.521 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309385273835520)]} 0 1
+2018-09-11 11:12:56.525 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-09-11 11:12:56.600 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2018-09-11 11:12:56.600 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 2
+2018-09-11 11:12:56.630 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.s.SolrIndexSearcher Opening [Searcher@4443d4b[news_lookup] main]
+2018-09-11 11:12:56.632 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-09-11 11:12:56.632 INFO  (searcherExecutor-7-thread-1-processing-x:news_lookup) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Registered new searcher Searcher@4443d4b[news_lookup] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.0.0):C20)))}
+2018-09-11 11:12:56.633 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 108
+2018-09-11 11:12:56.689 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/select params={q=heading:McGraw-Hill&rows=10&wt=javabin&version=2} hits=0 status=0 QTime=47
+2018-09-11 11:13:33.394 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423936929792)]} 0 2
+2018-09-11 11:13:33.415 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423958949888)]} 0 1
+2018-09-11 11:13:33.420 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423965241344)]} 0 1
+2018-09-11 11:13:33.425 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423970484224)]} 0 1
+2018-09-11 11:13:33.431 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423976775680)]} 0 1
+2018-09-11 11:13:33.438 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423984115712)]} 0 1
+2018-09-11 11:13:33.442 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423988310016)]} 0 1
+2018-09-11 11:13:33.447 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423993552896)]} 0 1
+2018-09-11 11:13:33.452 INFO  (qtp1791930789-12) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309423998795776)]} 0 1
+2018-09-11 11:13:33.458 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424006135808)]} 0 1
+2018-09-11 11:13:33.462 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424009281536)]} 0 1
+2018-09-11 11:13:33.466 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424013475840)]} 0 1
+2018-09-11 11:13:33.469 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424017670144)]} 0 0
+2018-09-11 11:13:33.473 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424020815872)]} 0 1
+2018-09-11 11:13:33.477 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424026058752)]} 0 1
+2018-09-11 11:13:33.482 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424030253056)]} 0 1
+2018-09-11 11:13:33.489 INFO  (qtp1791930789-12) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424037593088)]} 0 1
+2018-09-11 11:13:33.493 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424041787392)]} 0 1
+2018-09-11 11:13:33.496 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424044933120)]} 0 1
+2018-09-11 11:13:33.502 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309424051224576)]} 0 0
+2018-09-11 11:13:33.506 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-09-11 11:13:33.555 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2018-09-11 11:13:33.555 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 3
+2018-09-11 11:13:33.557 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.s.SolrIndexSearcher Opening [Searcher@b94e2d5[news_lookup] main]
+2018-09-11 11:13:33.557 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-09-11 11:13:33.557 INFO  (searcherExecutor-7-thread-1-processing-x:news_lookup) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Registered new searcher Searcher@b94e2d5[news_lookup] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.0.0):C20) Uninverting(_1(6.0.0):C20)))}
+2018-09-11 11:13:33.558 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 52
+2018-09-11 11:13:33.568 ERROR (qtp1791930789-14) [   x:news_lookup] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1280)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:432)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:206)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:372)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:742)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:530)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:140)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:162)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:261)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2033)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:229)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:184)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-09-11 11:13:33.568 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/select params={q=heading:Re-scrutinized+O/L+results+out+tonight&rows=10&wt=javabin&version=2} status=400 QTime=3
+2018-09-11 11:13:49.230 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440543227904)]} 0 2
+2018-09-11 11:13:49.257 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440571539456)]} 0 1
+2018-09-11 11:13:49.264 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440578879488)]} 0 1
+2018-09-11 11:13:49.268 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440584122368)]} 0 1
+2018-09-11 11:13:49.274 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440589365248)]} 0 1
+2018-09-11 11:13:49.279 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440594608128)]} 0 1
+2018-09-11 11:13:49.283 INFO  (qtp1791930789-12) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440598802432)]} 0 1
+2018-09-11 11:13:49.287 INFO  (qtp1791930789-19) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440604045312)]} 0 1
+2018-09-11 11:13:49.293 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440609288192)]} 0 1
+2018-09-11 11:13:49.297 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440614531072)]} 0 0
+2018-09-11 11:13:49.302 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440618725376)]} 0 1
+2018-09-11 11:13:49.308 INFO  (qtp1791930789-16) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440626065408)]} 0 1
+2018-09-11 11:13:49.312 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440630259712)]} 0 0
+2018-09-11 11:13:49.317 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440635502592)]} 0 1
+2018-09-11 11:13:49.322 INFO  (qtp1791930789-12) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440639696896)]} 0 1
+2018-09-11 11:13:49.325 INFO  (qtp1791930789-19) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440643891200)]} 0 0
+2018-09-11 11:13:49.329 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440647036928)]} 0 0
+2018-09-11 11:13:49.333 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440651231232)]} 0 1
+2018-09-11 11:13:49.338 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440656474112)]} 0 1
+2018-09-11 11:13:49.345 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[Re-scrutinized O/L results out tonight (1611309440663814144)]} 0 3
+2018-09-11 11:13:49.351 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-09-11 11:13:49.415 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@56ec1450; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2018-09-11 11:13:49.415 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 4
+2018-09-11 11:13:49.417 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.s.SolrIndexSearcher Opening [Searcher@35f1843[news_lookup] main]
+2018-09-11 11:13:49.419 INFO  (searcherExecutor-7-thread-1-processing-x:news_lookup) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Registered new searcher Searcher@35f1843[news_lookup] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.0.0):C20) Uninverting(_1(6.0.0):C20) Uninverting(_2(6.0.0):C20)))}
+2018-09-11 11:13:49.419 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-09-11 11:13:49.419 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 68
+2018-09-11 11:13:49.439 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/select params={q=heading:Re-scrutinized&rows=10&wt=javabin&version=2} hits=60 status=0 QTime=12
+2018-09-11 11:14:17.034 INFO  (qtp1791930789-17) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 1
+2018-09-11 11:14:17.034 ERROR (qtp1791930789-17) [   x:news_lookup] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR adding document SolrInputDocument(fields: [content=Re-scrutinized results of the GCE Ordinary Level examinations 2017 will be released tonight.Accordingly, the results could be accessed on the website of the Department of Examinations, date=Monday, 10 September 2018 - 17:05, heading=Re-scrutinized O/L results out tonight, link=http://www.hirunews.lk/199584/re-scrutinized-o-l-results-out-tonight, _version_=1611309469696786432])
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:100)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:179)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:135)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:260)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:121)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:225)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:145)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:186)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:107)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:54)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2033)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:229)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:184)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.file.NoSuchFileException: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index/write.lock
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:177)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.createOutput(LockValidatingDirectoryWrapper.java:43)
+	at org.apache.lucene.store.TrackingDirectoryWrapper.createOutput(TrackingDirectoryWrapper.java:43)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.<init>(CompressingStoredFieldsWriter.java:108)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsFormat.fieldsWriter(CompressingStoredFieldsFormat.java:128)
+	at org.apache.lucene.codecs.lucene50.Lucene50StoredFieldsFormat.fieldsWriter(Lucene50StoredFieldsFormat.java:183)
+	at org.apache.lucene.index.DefaultIndexingChain.initStoredFieldsWriter(DefaultIndexingChain.java:83)
+	at org.apache.lucene.index.DefaultIndexingChain.startStoredFields(DefaultIndexingChain.java:331)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:368)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:232)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:449)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1492)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:282)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:214)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:169)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:68)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:936)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1091)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:714)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:97)
+	... 41 more
+
+2018-09-11 11:14:17.035 ERROR (qtp1791930789-17) [   x:news_lookup] o.a.s.s.HttpSolrCall null:org.apache.solr.common.SolrException: ERROR adding document SolrInputDocument(fields: [content=Re-scrutinized results of the GCE Ordinary Level examinations 2017 will be released tonight.Accordingly, the results could be accessed on the website of the Department of Examinations, date=Monday, 10 September 2018 - 17:05, heading=Re-scrutinized O/L results out tonight, link=http://www.hirunews.lk/199584/re-scrutinized-o-l-results-out-tonight, _version_=1611309469696786432])
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:100)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:179)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:135)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:260)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:121)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:225)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:145)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:186)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:107)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:54)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2033)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:229)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:184)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.file.NoSuchFileException: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index/write.lock
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:177)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.createOutput(LockValidatingDirectoryWrapper.java:43)
+	at org.apache.lucene.store.TrackingDirectoryWrapper.createOutput(TrackingDirectoryWrapper.java:43)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.<init>(CompressingStoredFieldsWriter.java:108)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsFormat.fieldsWriter(CompressingStoredFieldsFormat.java:128)
+	at org.apache.lucene.codecs.lucene50.Lucene50StoredFieldsFormat.fieldsWriter(Lucene50StoredFieldsFormat.java:183)
+	at org.apache.lucene.index.DefaultIndexingChain.initStoredFieldsWriter(DefaultIndexingChain.java:83)
+	at org.apache.lucene.index.DefaultIndexingChain.startStoredFields(DefaultIndexingChain.java:331)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:368)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:232)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:449)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1492)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:282)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:214)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:169)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:68)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:936)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1091)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:714)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:97)
+	... 41 more
+
+2018-09-11 11:14:34.037 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.u.p.LogUpdateProcessorFactory [news_lookup]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 0
+2018-09-11 11:14:34.038 ERROR (qtp1791930789-14) [   x:news_lookup] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Exception writing document id Re-scrutinized O/L results out tonight to the index; possible analysis error.
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:181)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:68)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:936)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1091)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:714)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:97)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:179)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:135)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:260)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:121)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:225)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:145)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:186)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:107)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:54)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2033)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:229)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:184)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.lucene.store.AlreadyClosedException: this IndexWriter is closed
+	at org.apache.lucene.index.IndexWriter.ensureOpen(IndexWriter.java:724)
+	at org.apache.lucene.index.IndexWriter.ensureOpen(IndexWriter.java:738)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1488)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:282)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:214)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:169)
+	... 48 more
+Caused by: java.nio.file.NoSuchFileException: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index/write.lock
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:177)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.createOutput(LockValidatingDirectoryWrapper.java:43)
+	at org.apache.lucene.store.TrackingDirectoryWrapper.createOutput(TrackingDirectoryWrapper.java:43)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.<init>(CompressingStoredFieldsWriter.java:108)
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsFormat.fieldsWriter(CompressingStoredFieldsFormat.java:128)
+	at org.apache.lucene.codecs.lucene50.Lucene50StoredFieldsFormat.fieldsWriter(Lucene50StoredFieldsFormat.java:183)
+	at org.apache.lucene.index.DefaultIndexingChain.initStoredFieldsWriter(DefaultIndexingChain.java:83)
+	at org.apache.lucene.index.DefaultIndexingChain.startStoredFields(DefaultIndexingChain.java:331)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:368)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:232)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:449)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1492)
+	... 51 more
+
+2018-09-11 11:14:39.044 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7a8c8dcf{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-09-11 11:14:39.044 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1658926803
+2018-09-11 11:14:39.046 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup]  CLOSING SolrCore org.apache.solr.core.SolrCore@4d9238c0
+2018-09-11 11:14:39.046 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=3,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=2,deletesById=0,deletesByQuery=0,errors=2,cumulative_adds=62,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=2,transaction_logs_total_size=55292,transaction_logs_total_number=8}
+2018-09-11 11:14:39.047 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.SolrCoreState Closing SolrCoreState
+2018-09-11 11:14:39.047 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-09-11 11:14:39.047 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2018-09-11 11:14:39.048 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Closing main searcher on request.
+2018-09-11 11:14:39.051 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-09-11 11:14:39.051 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory looking to close /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index [CachedDir<<refCount=0;path=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index;done=false>>]
+2018-09-11 11:14:39.051 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index
+2018-09-11 11:14:39.051 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory looking to close /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data [CachedDir<<refCount=0;path=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data;done=false>>]
+2018-09-11 11:14:39.052 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data
+2018-09-11 11:14:39.054 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@5383967b{/solr,null,UNAVAILABLE}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp}
+2018-09-11 11:14:39.055 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.

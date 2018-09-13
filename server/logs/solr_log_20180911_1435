@@ -1,0 +1,127 @@
+2018-09-11 08:55:57.888 INFO  (main) [   ] o.e.j.u.log Logging initialized @318ms
+2018-09-11 08:55:58.070 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2018-09-11 08:55:58.085 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/contexts/] at interval 0
+2018-09-11 08:55:58.335 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-09-11 08:55:58.345 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp/,STARTING}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-09-11 08:55:58.353 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1465085305@57536d79
+2018-09-11 08:55:58.366 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 08:55:58.367 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 08:55:58.367 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr'
+2018-09-11 08:55:58.367 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 08:55:58.367 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 08:55:58.372 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/solr.xml
+2018-09-11 08:55:58.430 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 08:55:58.452 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1658926803
+2018-09-11 08:55:58.452 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr]
+2018-09-11 08:55:58.453 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/lib to classpath: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/lib
+2018-09-11 08:55:58.463 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-09-11 08:55:58.773 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-09-11 08:55:58.776 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-09-11 08:55:58.777 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-09-11 08:55:58.780 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-09-11 08:55:58.780 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-09-11 08:55:58.812 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 08:55:58.817 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2018-09-11 08:55:58.821 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server
+2018-09-11 08:55:58.821 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-09-11 08:55:58.830 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp/,AVAILABLE}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp}
+2018-09-11 08:55:58.839 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@49438269{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-09-11 08:55:58.839 INFO  (main) [   ] o.e.j.s.Server Started @1271ms
+2018-09-11 08:56:06.138 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=63
+2018-09-11 08:56:06.201 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2018-09-11 08:56:06.211 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=news_lookup&action=STATUS&wt=json} status=0 QTime=1
+2018-09-11 08:56:06.230 INFO  (qtp1791930789-18) [   ] o.a.s.h.a.CoreAdminOperation core create command name=news_lookup&action=CREATE&instanceDir=news_lookup&wt=json
+2018-09-11 08:56:06.233 INFO  (qtp1791930789-18) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=news_lookup, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2018-09-11 08:56:06.234 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup'
+2018-09-11 08:56:06.234 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-11 08:56:06.234 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr
+2018-09-11 08:56:06.259 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2018-09-11 08:56:06.279 INFO  (qtp1791930789-18) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-09-11 08:56:06.286 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.0.0
+2018-09-11 08:56:06.368 INFO  (qtp1791930789-18) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2018-09-11 08:56:06.413 INFO  (qtp1791930789-18) [   ] o.a.s.s.IndexSchema [news_lookup] Schema name=example
+2018-09-11 08:56:06.719 INFO  (qtp1791930789-18) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-09-11 08:56:06.827 INFO  (qtp1791930789-18) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-11 08:56:06.834 INFO  (qtp1791930789-18) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-11 08:56:06.841 INFO  (qtp1791930789-18) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup'
+2018-09-11 08:56:06.842 INFO  (qtp1791930789-18) [   ] o.a.s.c.CoreContainer Creating SolrCore 'news_lookup' using configuration from instancedir /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup
+2018-09-11 08:56:06.842 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-09-11 08:56:06.852 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore [[news_lookup] ] Opening new SolrCore at [/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup], dataDir=[/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/]
+2018-09-11 08:56:06.854 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-09-11 08:56:06.859 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2018-09-11 08:56:06.912 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data
+2018-09-11 08:56:06.912 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore New index directory detected: old=null new=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index/
+2018-09-11 08:56:06.913 WARN  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Solr index directory '/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index' doesn't exist. Creating new index...
+2018-09-11 08:56:06.921 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index
+2018-09-11 08:56:06.969 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1e5927bb; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2018-09-11 08:56:06.970 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2018-09-11 08:56:06.971 INFO  (OldIndexDirectoryCleanupThreadForCore-news_lookup) [   x:news_lookup] o.a.s.c.SolrCore Looking for old index directories to cleanup for core news_lookup in /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/
+2018-09-11 08:56:07.030 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-09-11 08:56:07.054 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 08:56:07.057 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 08:56:07.058 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 08:56:07.060 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-11 08:56:07.136 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-09-11 08:56:07.136 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-09-11 08:56:07.139 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-09-11 08:56:07.139 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/sql,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2018-09-11 08:56:07.139 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-09-11 08:56:07.152 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-11 08:56:07.152 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-11 08:56:07.163 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-11 08:56:07.163 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-11 08:56:07.171 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1e5927bb; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2018-09-11 08:56:07.171 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2018-09-11 08:56:07.186 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.s.SolrIndexSearcher Opening [Searcher@64c68cf6[news_lookup] main]
+2018-09-11 08:56:07.194 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 08:56:07.194 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf}
+2018-09-11 08:56:07.205 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 08:56:07.206 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/conf
+2018-09-11 08:56:07.206 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2018-09-11 08:56:07.206 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-09-11 08:56:07.214 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-11 08:56:07.227 INFO  (searcherExecutor-7-thread-1-processing-x:news_lookup) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Registered new searcher Searcher@64c68cf6[news_lookup] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-11 08:56:07.227 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-09-11 08:56:07.228 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-09-11 08:56:07.228 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2018-09-11 08:56:07.228 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1611300777207267328
+2018-09-11 08:56:07.235 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.u.UpdateLog Took 7.0ms to seed version buckets with highest version 1611300777207267328
+2018-09-11 08:56:07.235 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.CoreContainer registering core: news_lookup
+2018-09-11 08:56:07.236 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=news_lookup&action=CREATE&instanceDir=news_lookup&wt=json} status=0 QTime=1006
+2018-09-11 08:56:18.029 INFO  (qtp1791930789-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536656177875} status=0 QTime=1
+2018-09-11 08:56:18.043 INFO  (qtp1791930789-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536656177875} status=0 QTime=8
+2018-09-11 08:56:18.062 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536656177875} status=0 QTime=15
+2018-09-11 08:56:20.363 INFO  (qtp1791930789-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536656177875} status=0 QTime=0
+2018-09-11 08:56:20.378 INFO  (qtp1791930789-15) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1536656180351} status=0 QTime=6
+2018-09-11 08:56:20.387 INFO  (qtp1791930789-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536656177875} status=0 QTime=22
+2018-09-11 08:56:20.388 INFO  (qtp1791930789-19) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1536656177875&ts=1536656177875} status=503 QTime=4
+2018-09-11 08:56:20.385 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/replication params={wt=json&command=details&_=1536656180351} status=0 QTime=14
+2018-09-11 08:56:20.403 INFO  (qtp1791930789-12) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/system params={wt=json&_=1536656180351} status=0 QTime=32
+2018-09-11 09:04:17.646 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536656657520} status=0 QTime=0
+2018-09-11 09:04:17.653 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1536656657633} status=0 QTime=0
+2018-09-11 09:04:17.655 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/replication params={wt=json&command=details&_=1536656657635} status=0 QTime=0
+2018-09-11 09:04:17.658 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536656657520} status=0 QTime=6
+2018-09-11 09:04:17.669 INFO  (qtp1791930789-20) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1536656657520&ts=1536656657520} status=503 QTime=0
+2018-09-11 09:04:17.680 INFO  (qtp1791930789-21) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/system params={wt=json&_=1536656657634} status=0 QTime=16
+2018-09-11 09:04:20.458 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536656657520} status=0 QTime=0
+2018-09-11 09:04:20.469 INFO  (qtp1791930789-14) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1536656657633} status=0 QTime=5
+2018-09-11 09:04:20.482 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536656657520} status=0 QTime=17
+2018-09-11 09:04:20.490 INFO  (qtp1791930789-18) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/config params={wt=json&_=1536656660432} status=0 QTime=4
+2018-09-11 09:04:20.537 INFO  (qtp1791930789-13) [   x:news_lookup] o.a.s.c.S.Request [news_lookup]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1536656657633} status=0 QTime=0
+2018-09-11 09:04:43.946 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@49438269{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-09-11 09:04:43.947 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1658926803
+2018-09-11 09:04:43.948 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup]  CLOSING SolrCore org.apache.solr.core.SolrCore@742b86c7
+2018-09-11 09:04:43.953 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2018-09-11 09:04:43.954 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.SolrCoreState Closing SolrCoreState
+2018-09-11 09:04:43.954 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-09-11 09:04:43.954 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2018-09-11 09:04:43.961 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.SolrCore [news_lookup] Closing main searcher on request.
+2018-09-11 09:04:43.963 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-09-11 09:04:43.964 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory looking to close /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data [CachedDir<<refCount=0;path=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data;done=false>>]
+2018-09-11 09:04:43.964 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data
+2018-09-11 09:04:43.964 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory looking to close /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index [CachedDir<<refCount=0;path=/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index;done=false>>]
+2018-09-11 09:04:43.964 INFO  (coreCloseExecutor-12-thread-1) [   x:news_lookup] o.a.s.c.CachingDirectoryFactory Closing directory: /home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr/news_lookup/data/index
+2018-09-11 09:04:43.966 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@5383967b{/solr,null,UNAVAILABLE}{/home/akash/Documents/News_ApacheSolr/solr-6.0.0/server/solr-webapp/webapp}
+2018-09-11 09:04:43.968 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.
